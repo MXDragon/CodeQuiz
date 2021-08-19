@@ -4,9 +4,6 @@ var timerElement = document.querySelector("time");
 var btnStart = document.querySelector(".btn-start");
 var timer;
 
-
-
-
 // ON CLICK EVENT FOR START BUTTON TO LOAD A QUESTION AND HIDE THE START BUTTON 
 btnStart.addEventListener("click", startQuiz); 
 function startQuiz() {
